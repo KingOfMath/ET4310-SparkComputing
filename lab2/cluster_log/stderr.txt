@@ -1,0 +1,303 @@
+20/10/08 20:53:21 WARN DependencyUtils: Skip remote jar s3://aws-logs-805895093473-us-east-1/elasticmapreduce/j-E9OZ1QGXBYDF/node/i-07917af2d66599a6e/Lab2-assembly-1.0.jar.
+20/10/08 20:53:21 INFO RMProxy: Connecting to ResourceManager at ip-172-31-68-187.ec2.internal/172.31.68.187:8032
+20/10/08 20:53:21 INFO Client: Requesting a new application from cluster with 5 NodeManagers
+20/10/08 20:53:21 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (6144 MB per container)
+20/10/08 20:53:21 INFO Client: Will allocate AM container, with 1408 MB memory including 384 MB overhead
+20/10/08 20:53:21 INFO Client: Setting up container launch context for our AM
+20/10/08 20:53:21 INFO Client: Setting up the launch environment for our AM container
+20/10/08 20:53:21 INFO Client: Preparing resources for our AM container
+20/10/08 20:53:21 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/10/08 20:53:23 INFO Client: Uploading resource file:/mnt/tmp/spark-01f26702-7521-4046-bc6d-14291e42bbb4/__spark_libs__274996268101759638.zip -> hdfs://ip-172-31-68-187.ec2.internal:8020/user/hadoop/.sparkStaging/application_1602188222336_0001/__spark_libs__274996268101759638.zip
+20/10/08 20:53:25 INFO Client: Uploading resource s3://aws-logs-805895093473-us-east-1/elasticmapreduce/j-E9OZ1QGXBYDF/node/i-07917af2d66599a6e/Lab2-assembly-1.0.jar -> hdfs://ip-172-31-68-187.ec2.internal:8020/user/hadoop/.sparkStaging/application_1602188222336_0001/Lab2-assembly-1.0.jar
+20/10/08 20:53:25 INFO S3NativeFileSystem: Opening 's3://aws-logs-805895093473-us-east-1/elasticmapreduce/j-E9OZ1QGXBYDF/node/i-07917af2d66599a6e/Lab2-assembly-1.0.jar' for reading
+20/10/08 20:53:26 INFO Client: Uploading resource file:/mnt/tmp/spark-01f26702-7521-4046-bc6d-14291e42bbb4/__spark_conf__5002580275399638155.zip -> hdfs://ip-172-31-68-187.ec2.internal:8020/user/hadoop/.sparkStaging/application_1602188222336_0001/__spark_conf__.zip
+20/10/08 20:53:26 INFO SecurityManager: Changing view acls to: hadoop
+20/10/08 20:53:26 INFO SecurityManager: Changing modify acls to: hadoop
+20/10/08 20:53:26 INFO SecurityManager: Changing view acls groups to: 
+20/10/08 20:53:26 INFO SecurityManager: Changing modify acls groups to: 
+20/10/08 20:53:26 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(hadoop); groups with view permissions: Set(); users  with modify permissions: Set(hadoop); groups with modify permissions: Set()
+20/10/08 20:53:27 INFO Client: Submitting application application_1602188222336_0001 to ResourceManager
+20/10/08 20:53:28 INFO YarnClientImpl: Submitted application application_1602188222336_0001
+20/10/08 20:53:29 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:29 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1602190407853
+	 final status: UNDEFINED
+	 tracking URL: http://ip-172-31-68-187.ec2.internal:20888/proxy/application_1602188222336_0001/
+	 user: hadoop
+20/10/08 20:53:30 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:31 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:32 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:33 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:34 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:35 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:36 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:37 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:38 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:39 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:40 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:41 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:42 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:43 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:44 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:45 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:46 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:47 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:48 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:49 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:50 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:51 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:52 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:53 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:54 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:55 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:56 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:57 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:58 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:53:59 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:00 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:01 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:02 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:03 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:04 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:05 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:06 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:07 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:08 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:09 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:10 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:11 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:12 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:13 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:14 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:15 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:16 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:17 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:18 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:19 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:20 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:21 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:22 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:23 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:24 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:25 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:26 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:27 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:28 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:29 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:30 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:31 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:32 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:33 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:34 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:35 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:36 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:37 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:38 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:39 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:40 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:41 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:42 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:43 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:44 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:45 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:46 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:47 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:48 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:49 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:50 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:51 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:52 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:53 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:54 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:55 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:56 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:57 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:58 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:54:59 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:00 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:01 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:02 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:03 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:04 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:05 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:06 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:07 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:08 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:09 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:10 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:11 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:12 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:13 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:14 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:15 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:16 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:17 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:18 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:19 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:20 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:21 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:22 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:23 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:24 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:25 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:26 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:27 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:28 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:29 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:30 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:31 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:32 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:33 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:34 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:35 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:36 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:37 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:38 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:39 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:40 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:41 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:42 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:43 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:44 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:45 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:46 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:47 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:48 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:49 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:50 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:51 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:52 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:53 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:54 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:55 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:56 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:57 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:58 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:55:59 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:00 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:01 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:02 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:03 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:04 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:05 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:06 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:07 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:08 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:09 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:10 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:11 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:12 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:13 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:14 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:15 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:16 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:17 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:18 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:19 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:20 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:21 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:22 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:23 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:24 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:25 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:26 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:27 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:28 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:29 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:30 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:31 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:32 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:33 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:34 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:35 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:36 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:37 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:38 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:39 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:40 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:41 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:42 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:43 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:44 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:45 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:46 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:47 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:48 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:49 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:50 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:51 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:52 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:53 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:54 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:55 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:56 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:57 INFO Client: Application report for application_1602188222336_0001 (state: ACCEPTED)
+20/10/08 20:56:58 INFO Client: Application report for application_1602188222336_0001 (state: FAILED)
+20/10/08 20:56:58 INFO Client: 
+	 client token: N/A
+	 diagnostics: Application application_1602188222336_0001 failed 2 times due to AM Container for appattempt_1602188222336_0001_000002 exited with  exitCode: 13
+Failing this attempt.Diagnostics: Exception from container-launch.
+Container id: container_1602188222336_0001_02_000001
+Exit code: 13
+Stack trace: ExitCodeException exitCode=13: 
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:972)
+	at org.apache.hadoop.util.Shell.run(Shell.java:869)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:1170)
+	at org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor.launchContainer(DefaultContainerExecutor.java:235)
+	at org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerLaunch.call(ContainerLaunch.java:299)
+	at org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerLaunch.call(ContainerLaunch.java:83)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+Container exited with a non-zero exit code 13
+For more detailed output, check the application tracking page: http://ip-172-31-68-187.ec2.internal:8088/cluster/app/application_1602188222336_0001 Then click on links to logs of each attempt.
+. Failing the application.
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1602190407853
+	 final status: FAILED
+	 tracking URL: http://ip-172-31-68-187.ec2.internal:8088/cluster/app/application_1602188222336_0001
+	 user: hadoop
+20/10/08 20:56:58 ERROR Client: Application diagnostics message: Application application_1602188222336_0001 failed 2 times due to AM Container for appattempt_1602188222336_0001_000002 exited with  exitCode: 13
+Failing this attempt.Diagnostics: Exception from container-launch.
+Container id: container_1602188222336_0001_02_000001
+Exit code: 13
+Stack trace: ExitCodeException exitCode=13: 
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:972)
+	at org.apache.hadoop.util.Shell.run(Shell.java:869)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:1170)
+	at org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor.launchContainer(DefaultContainerExecutor.java:235)
+	at org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerLaunch.call(ContainerLaunch.java:299)
+	at org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerLaunch.call(ContainerLaunch.java:83)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+Container exited with a non-zero exit code 13
+For more detailed output, check the application tracking page: http://ip-172-31-68-187.ec2.internal:8088/cluster/app/application_1602188222336_0001 Then click on links to logs of each attempt.
+. Failing the application.
+Exception in thread "main" org.apache.spark.SparkException: Application application_1602188222336_0001 finished with failed status
+	at org.apache.spark.deploy.yarn.Client.run(Client.scala:1149)
+	at org.apache.spark.deploy.yarn.YarnClusterApplication.start(Client.scala:1526)
+	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:849)
+	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:167)
+	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:195)
+	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:86)
+	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:924)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:933)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+20/10/08 20:56:58 INFO ShutdownHookManager: Shutdown hook called
+20/10/08 20:56:58 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-a6e124c0-aec4-4a30-8685-b49bbaef73a8
+20/10/08 20:56:58 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-01f26702-7521-4046-bc6d-14291e42bbb4
+Command exiting with ret '1'
