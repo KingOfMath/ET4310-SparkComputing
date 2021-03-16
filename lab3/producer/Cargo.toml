@@ -1,0 +1,18 @@
+[package]
+name = "producer"
+version = "0.1.0"
+authors = ["Matthijs Brobbel <m1brobbel@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+chrono = "0.4"
+geojson = "0.19"
+lazy_static = "1"
+rand = "0.7"
+rdkafka = { version= "0.24", features = ["cmake-build"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "0.2", features = ["blocking", "macros", "rt-threaded", "time"] }
+
+[build-dependencies]
+reqwest = { version = "0.10", features = ["blocking"] }

@@ -1,0 +1,17 @@
+[package]
+name = "consumer"
+version = "0.1.0"
+authors = ["Matthijs Brobbel <m1brobbel@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+futures = "0.3"
+geojson = "0.19"
+rdkafka = { version= "0.24", features = ["cmake-build"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "0.2", features = ["blocking", "macros", "rt-threaded", "time", "sync"] }
+warp = "0.2"
+
+[build-dependencies]
+reqwest = { version = "0.10", features = ["blocking"] }
